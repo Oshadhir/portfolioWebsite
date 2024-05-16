@@ -10,40 +10,41 @@ import { motion} from "framer-motion";
 const Experience = () => {
   const experienceData = [
     {
-      label: "SPS Commerce",
-      date: "Jan 2024 - April 2024",
-      title: "Software Engineer Intern (Backend Team)",
-      link: "https://www.spscommerce.com/",
+      label: "Sync Agency",
+      date: "Sep. 2022 - present",
+      title: "Video Editor",
+      link: "https://www.linkedin.com/company/sync-agency/",
       icon: <FaChartBar />,
       description:
-        "Engineered background processing services on the company analytics platform using ASP.NET Core to automate extraction and retrieval of retailer (Amazon, Sketchers, & Walmart) data from SQL Server DBs.",
+        "Collaborated with marketing and creative teams to develop engaging video content for [platforms/purposes, e.g., social media campaigns, product explainer videos].Edited raw footage from various sources, including interviews, B-roll, and graphics, into compelling narratives.",
+        
     },
     {
-      label: "BCS Automation",
-      date: "May 2023 - Aug. 2023",
-      title: "Software Developer Intern (Virtual Reality Team)",
-      link: "https://ca.linkedin.com/company/bcs-automation-ltd",
+      label: "Freelance",
+      date: "May 2023 - present",
+      title: "Graphic Designer/ Animator",
+      link: "",
       icon: <FaShip />,
       description:
-        "Developed frontend interfaces (Lua, VR) and communication protocals via RESTful APIs (ASP.NET CORE, RESTful APIs, sockets) for Canada's new HoloShip platform aimed at making a digital twin for the OOSV.",
+        "Delivered high-quality design solutions for projects such as [ logos, brochures, social media graphics, website mockups]. Maintained open communication with clients throughout the design process, ensuring their feedback and revisions were incorporated seamlessly.Managed multiple projects simultaneously while meeting deadlines consistently.",
     },
+    // {
+    //   label: "Legion Studios",
+    //   date: "Nov 2020 - Jun 2022",
+    //   title: "Software Developer (Game Systems)",
+    //   link: "https://www.linkedin.com/company/legionstudios/",
+    //   icon: <FaGamepad />,
+    //   description:
+    //     "Developed Lua games, coordinated agile scrum standups with 10+ developers, and led the team to gain 100K+ game plays and 1000+ asset sales.",
+    // },
     {
-      label: "Legion Studios",
-      date: "Nov 2020 - Jun 2022",
-      title: "Software Developer (Game Systems)",
-      link: "https://www.linkedin.com/company/legionstudios/",
-      icon: <FaGamepad />,
-      description:
-        "Developed Lua games, coordinated agile scrum standups with 10+ developers, and led the team to gain 100K+ game plays and 1000+ asset sales.",
-    },
-    {
-      label: "HealthSmart.ai",
-      date: "Jun 2021 - Aug 2021",
-      title: "Software Engineer Intern (Frontend Team)",
-      link: "https://healthsmart.ai",
+      label: "Rotaract Club",
+      date: "May 2022 - present",
+      title: "Volunteer",
+      link: "https://www.facebook.com/iitrotaract/",
       icon: <FaHospital />,
       description:
-        "Developed a secure medical record integration prototype, built 3D patient visualization pages using React & Three.js, designed wireframes, info cards, & icons.",
+        "My time with the Rotaract Club of IIT has been a valuable learning experience. Volunteering on various initiatives has allowed me to develop strong leadership and communication skills. Working collaboratively with diverse teams has further honed my ability to effectively convey ideas and work seamlessly towards a common goal. It's been a rewarding experience that has fostered both personal growth and a passion for making a positive impact.",
     },
   ];
 
@@ -57,13 +58,13 @@ const Experience = () => {
       <h1 className="text-center text-6xl font-bold text-white">
         Places I've
         <span> </span>
-        <span className="gradient bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent">
+        <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent">
           learned
         </span>
         <span> </span>
         and
         <> </>
-        <span className="gradient bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent">
+        <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent">
           worked.
         </span>
       </h1>
@@ -75,7 +76,7 @@ const Experience = () => {
       </div>
 
 
-        <div className="mt-10 gradient bg-gradient-to-r from-blue-700 to-blue-900 lg:w-1/2 sm:w-full shadow-lg rounded-lg p-4 flex overflow-hidden justify-center items-center">
+        <div className="mt-10 gradient bg-gradient-to-r from-[#884019] to-[#779a42] lg:w-1/2 sm:w-full shadow-lg rounded-lg p-4 flex overflow-hidden justify-center items-center">
           <nav className="flex-none w-1/3">
             <ul className="list-none">
               {experienceData.map((item) => (

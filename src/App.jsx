@@ -30,9 +30,9 @@ const App = () => {
           <div className="z-0 p-5 md:p-0 lg:p-0 sm:p-0"><Experience /></div>
           <div className="relative bg-primary"><Projects /></div>
         </div>
-        <div className="pt-10 relative bg-primary">
+        {/* <div className="pt-10 relative bg-primary">
           <Awards />
-        </div>
+        </div> */}
         <div className="pt-10 relative bg-primary">
           <Contact />
         </div>

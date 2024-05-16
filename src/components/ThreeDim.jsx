@@ -4,13 +4,13 @@ import React, { Suspense, useEffect, useState, useRef} from 'react';
 import { styles } from '../styles';
 //import Model from './Model'
 import {motion, useAnimation, useTransform, useScroll} from 'framer-motion';
-import animebg from '../assets/redbg.jpg';
+import animebg from '../assets/grad4.png';
 // import animebg from '../assets/animebg.png';
 import AnimatedText from './AnimatedText';
 import { FaArrowDown } from 'react-icons/fa';
 const ThreeDim = () => {
     const [isMobile, setIsMobile] = useState(false);
-    const roles = ["Computer Engineering student", "Software developer", "Youtuber", "Animator", "Video editor"];
+    const roles = ["Computer Science student", "Software Engineer", "Graphic Designer", "Animator", "Video editor"];
     const[currentRole, setCurrentRole] = useState(0);
     const [dimensions, setDimensions] = useState({
         height: window.innerHeight,
@@ -85,7 +85,8 @@ const ThreeDim = () => {
             }}>
         </div> */}
 
-            <div className={`${styles.paddingX} absolute inset-0 mt-320 sm:mt-320 md:mt-320 lg:mt-320 mx-auto flex flex-col items-center gap-1`}>
+        <div className={`${styles.paddingX} absolute inset-0 mt-200 sm:mt-200 md:mt-200 lg:mt-200 mx-auto flex flex-col items-center gap-1`}>
+
 
    
                     <AnimatedText sentence = "Hello, I'm Oshadhi!" styling = "text-4xl sm:text-5xl md:text-6xl lg:text-8xl mt-40 font-bold gradient bg-gradient-to-t from-white to-gray-300 bg-clip-text text-transparent"/>
@@ -108,7 +109,7 @@ const ThreeDim = () => {
     animate="floatDown"
     exit="floatUp"
     transition={{ repeat: Infinity, duration: 1, ease: "easeInOut", repeatType: 'reverse' }}
-    className="mt-4"
+    className="mt-6"
 >
     <FaArrowDown size={40} /> 
 </motion.div>

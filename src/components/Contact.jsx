@@ -23,7 +23,7 @@ const Contact = () => {
 
                 <div >
                     <div className="items-center justify-center">
-                        <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white z-0 bg-transparent text-center">Feel free to <span className="gradient bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent z-0">
+                        <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white z-0 bg-transparent text-center">Feel free to <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent z-0">
                             reach out!
                         </span></h1>
                         <div className="flex justify-center">
@@ -33,8 +33,8 @@ const Contact = () => {
                         </div>
                         <div className="flex justify-center items-center mt-8">
                             <a
-                                href="mailto:lau.c.justin@gmail.com"
-                                className="px-6 py-3 text-white font-bold text-xl bg-blue-500 rounded-lg shadow hover:bg-blue-700 transition-colors duration-300"
+                                href="mailto:oshadhirajakaruna2005@gmail.com"
+                                className="px-6 py-3 text-white font-bold text-xl bg-[#884019]  rounded-lg shadow hover:bg-[#779a42] transition-colors duration-300"
                             >
                                 Contact Me
 

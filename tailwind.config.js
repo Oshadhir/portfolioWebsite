@@ -14,7 +14,7 @@
         "gradient-anim": "gradient-anim 6s linear infinite",
       },
       colors: {
-        primary: "#140B1C",
+        primary: "#030101",
         secondary: "#6a8faf", // bluish-grey
         tertiary: "#123055", // deeper blue
         "black-100": "#0a1f33", // dark blue

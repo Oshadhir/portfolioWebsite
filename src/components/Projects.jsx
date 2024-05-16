@@ -3,10 +3,10 @@ import { Tilt } from 'react-tilt';
 import {motion} from 'framer-motion';
 import { Element } from 'react-scroll';
 import { useSpring, animated } from 'react-spring';
-import project1 from '../assets/intellipaint.png';
-import project2 from '../assets/facelock.jpg';
-import project3 from '../assets/readright.png';
-import project4 from '../assets/jjk.png';
+import project1 from '../assets/chat1.png';
+import project2 from '../assets/raven.png';
+import project3 from '../assets/Healthcare.png';
+import project4 from '../assets/shoping.png';
 import '../App.css';
 
 
@@ -45,14 +45,14 @@ const Projects = () => {
             <h1 className="sm:pt-10 lg:pt-0 text-6xl font-bold text-white text-center ">
                 See some of my
                 <span> </span>
-                <span className="gradient bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent">
+                <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent">
                     projects!
                 </span><> </>
                 Come take a look!
             </h1>
             <div className="flex justify-center">
                 <p className="pt-4 text-2xl text-white text-center place-content-center max-w-4xl">
-                    Applying innovation to imagination.
+                    recent projects i've been doing
                 </p>
             </div>
             <div className="pt-13 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 items-center gap-x-0 justify-items-center mx-auto max-w-screen-lg">
@@ -71,18 +71,20 @@ const Projects = () => {
                     {...bounce}
                 >
                     <div className="mt-6 w-full md:w-96 block rounded-lg shadow-lg overflow-hidden mx-0">
-                        <a href="https://github.com/JustinScitech/IntelliPaint" target="_blank" rel="noopener noreferrer">
+                        <a href="" target="_blank" rel="noopener noreferrer">
                             <div className="relative h-56">
                                 <img src={project1} alt="IntelliPaint" className="object-cover w-full h-full" />
                             </div>
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">IntelliPaint</div>
+                                <div className="font-bold text-xl mb-2">Conversax</div>
                                 <p className="text-gray-700 text-base">
-                                    IntelliPaint is an AI art generation site using the OpenAI API to make art from text prompts.
+                                A full-stack, real-time chat application built using MERN stack (MongoDB, Express, React, Node.js).
+                                features secure user authentication, instant real-time messaging, dynamic online user status, efficient global
+                                state management
                                 </p>
                             </div>
                             <div className="px-6 pt-4 pb-2">
-                                <button className="bg-blue-500 hover:bg-blue-700 text-white font-normal py-2 px-4 rounded">
+                                <button className="bg-[#884019] hover:bg-[#779a42] text-white font-normal py-2 px-4 rounded">
                                     Read More
                                 </button>
                             </div>
@@ -104,18 +106,19 @@ const Projects = () => {
                 >
 
                     <div className="mt-6 w-full md:w-96 block rounded-lg shadow-lg overflow-hidden mx-0">
-                        <a href="https://github.com/Nadish-Madadi/FaceLock" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/AlthafNazeel/R.A.V.E.N" target="_blank" rel="noopener noreferrer">
                             <div className="relative h-56">
-                                <img src={project2} alt="FaceLock" className="object-cover w-full h-full" />
+                                <img src={project2} alt="raven" className="object-cover w-full h-full" />
                             </div>
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">FaceLock</div>
+                                <div className="font-bold text-xl mb-2">Raven</div>
                                 <p className="text-gray-700 text-base">
-                                    FaceLock uses OpenCV and machine learning for password management using face recognition.
+                                a real-time fall detection and emergency hand gesture recognition system using machine learning (TensorFlow). This Python and Flutter app integrates with Firebase for real-time notifications and alerts, 
+                                ensuring swift response in emergency situations. (Tools: Git, Figma)
                                 </p>
                             </div>
                             <div className="px-6 pt-4 pb-2">
-                                <button className="bg-blue-500 hover:bg-blue-700 text-white font-normal py-2 px-4 rounded">
+                                <button className="bg-[#884019] hover:bg-[#779a42] text-white font-normal py-2 px-4 rounded">
                                     Read More
                                 </button>
                             </div>
@@ -137,18 +140,18 @@ const Projects = () => {
                 >
                 
                     <div className="mt-6 w-full md:w-96 block rounded-lg shadow-lg overflow-hidden mx-0">
-                        <a href="https://github.com/JustinScitech/ReadRight" target="_blank" rel="noopener noreferrer">
+                        <a href="" target="_blank" rel="noopener noreferrer">
                             <div className="relative h-56">
                                 <img src={project3} alt="ReadRight" className="object-cover w-full h-full" />
                             </div>
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">ReadRight</div>
+                                <div className="font-bold text-xl mb-2">Healthcare System API</div>
                                 <p className="text-gray-700 text-base">
-                                    ReadRight aims to help people with dyslexia and reading disabilities to read more effectively. This won best the project award for Hack the 6ix 2023!
+                                Built a secure Health System API using Java and JAX-RS for managing healthcare data. The API handles patient records, appointments, and medical history, all while prioritizing data security. (Tools: Maven, Postman)
                                 </p>
                             </div>
                             <div className="px-6 pt-4 pb-2">
-                                <button className="bg-blue-500 hover:bg-blue-700 text-white font-normal py-2 px-4 rounded">
+                                <button className="bg-[#884019] hover:bg-[#779a42] text-white font-normal py-2 px-4 rounded">
                                     Read More
                                 </button>
                             </div>
@@ -168,18 +171,18 @@ const Projects = () => {
                     {...bounce}
                 >
                     <div className="mt-6 w-full md:w-96 block rounded-lg shadow-lg overflow-hidden mx-0">
-                        <a href="https://www.linkedin.com/company/legionstudios/" target="_blank" rel="noopener noreferrer">
+                        <a href="" target="_blank" rel="noopener noreferrer">
                             <div className="relative h-56">
                                 <img src={project4} alt="IntelliPaint" className="object-cover w-full h-full" />
                             </div>
                             <div className="px-6 py-4">
-                                <div className="font-bold text-xl mb-2">JJK King Of Curses</div>
+                                <div className="font-bold text-xl mb-2">Shopping Cart</div>
                                 <p className="text-gray-700 text-base">
-                                    JJK is a combat style 3D game that allows players to enjoy an immersive mystical adventure world set in Japan. This has 100k+ plays and 1000+ sales!
+                                Created a Java shopping cart application with separate interfaces for admins (console) and customers (Swing UI). the console leverage OOP principles to manage products (add, delete, print, save). Customers can browse products, check availability, add items to cart, and complete purchases. (Java, Swing)
                                 </p>
                             </div>
                             <div className="px-6 pt-4 pb-2">
-                                <button className="bg-blue-500 hover:bg-blue-700 text-white font-normal py-2 px-4 rounded">
+                                <button className="bg-[#884019] hover:bg-[#779a42] text-white font-normal py-2 px-4 rounded">
                                     Read More
                                 </button>
                             </div>
