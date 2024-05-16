@@ -1,7 +1,7 @@
 import React from "react";
 import '../App.css';
 import { Element } from 'react-scroll';
-import resume from '../assets/JustinResume.pdf';
+// import resume from '../assets/Resume.pdf';
 import oshadhi from '../assets/me3.jpeg';
 import { FaLinkedinIn , FaGithub, FaYoutube} from "react-icons/fa"
 import { useSpring, animated } from 'react-spring';
@@ -129,7 +129,7 @@ const bounce = {
   whileInView={{ opacity: 1 }}
 >
           <h1 className="pt-8 text-2xl font-light text-white text-left">
-            <a href={resume}
+            <a href={""}
               target="_blank"
               rel="noopener noreferrer"
               className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] rounded-full text-white inline-block text-center py-4 px-4 hover:translate-y-[-8px] transition-transform duration-200">
