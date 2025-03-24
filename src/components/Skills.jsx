@@ -63,7 +63,7 @@ const Skills = () => {
                 <h1 className="pt-20 sm:pt-0 text-6xl font-bold text-white text-center">
                   My
                   <span> </span>
-                  <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent">
+                  <span className="gradient bg-gradient-to-r from-[#881958] to-[#291f97] bg-clip-text text-transparent">
                     Skills
                   </span>
                 </h1>
@@ -71,11 +71,11 @@ const Skills = () => {
                 <div className="flex justify-center">
                   <p className="pt-8 text-2xl text-white text-center place-content-center max-w-4xl">
                     These are some skills that I've learned from taking part in <span></span>
-                    <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent">
+                    <span className="gradient bg-gradient-to-r from-[#881958] to-[#291f97] bg-clip-text text-transparent">
                       courses
                     </span> <span></span>
                     and producing <span></span>
-                    <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent">
+                    <span className="gradient bg-gradient-to-r from-[#881958] to-[#291f97] bg-clip-text text-transparent">
                       technical side projects
                     </span>.
                   </p>

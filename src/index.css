@@ -12,7 +12,14 @@
   color-scheme: dark;
 }
 
+.glow-effect {
+  text-shadow: 0 0 10px rgba(136, 25, 62, 0.8), 0 0 20px rgba(136, 25, 62, 0.6), 0 0 30px rgba(136, 25, 62, 0.4);
+  transition: text-shadow 0.3s ease-in-out;
+}
 
+.glow-effect:hover {
+  text-shadow: 0 0 20px rgba(136, 25, 62, 1), 0 0 40px rgba(136, 25, 62, 0.8), 0 0 60px rgba(136, 25, 62, 0.5);
+}
 
 .hash-span {
   margin-top: 0px;

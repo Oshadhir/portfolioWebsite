@@ -10,6 +10,16 @@ import { motion} from "framer-motion";
 const Experience = () => {
   const experienceData = [
     {
+      label: "Propylon One",
+      date: "July 2024 - present",
+      title: "Technical Consultant Intern",
+      link: "https://www.linkedin.com/company/sync-agency/",
+      icon: <FaChartBar />,
+      description:
+        " Assisted in the implementation, customization, and testing of ERP solutions, contributing to a 20% improvement in system efficiency and a 15% reduction in bug rates. Provided technical support to users, troubleshooting issues, and creating documentation that enhanced user onboarding and system adoption.",
+        
+    },
+    {
       label: "Sync Agency",
       date: "Sep. 2022 - present",
       title: "Video Editor",
@@ -58,13 +68,13 @@ const Experience = () => {
       <h1 className="text-center text-6xl font-bold text-white">
         Places I've
         <span> </span>
-        <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent">
+        <span className="gradient bg-gradient-to-r from-[#881944] to-[#161686] bg-clip-text text-transparent">
           learned
         </span>
         <span> </span>
         and
         <> </>
-        <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent">
+        <span className="gradient bg-gradient-to-r from-[#881949] to-[#150766] bg-clip-text text-transparent">
           worked.
         </span>
       </h1>
@@ -76,7 +86,7 @@ const Experience = () => {
       </div>
 
 
-        <div className="mt-10 gradient bg-gradient-to-r from-[#884019] to-[#779a42] lg:w-1/2 sm:w-full shadow-lg rounded-lg p-4 flex overflow-hidden justify-center items-center">
+        <div className="mt-10 gradient bg-gradient-to-r from-[#881949] to-[#150766] lg:w-1/2 sm:w-full shadow-lg rounded-lg p-4 flex overflow-hidden justify-center items-center">
           <nav className="flex-none w-1/3">
             <ul className="list-none">
               {experienceData.map((item) => (

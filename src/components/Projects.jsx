@@ -45,7 +45,7 @@ const Projects = () => {
             <h1 className="sm:pt-10 lg:pt-0 text-6xl font-bold text-white text-center ">
                 See some of my
                 <span> </span>
-                <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent">
+                <span className="gradient bg-gradient-to-r from-[#88193e] to-[#19328f] bg-clip-text text-transparent">
                     projects!
                 </span><> </>
                 Come take a look!
@@ -84,7 +84,7 @@ const Projects = () => {
                                 </p>
                             </div>
                             <div className="px-6 pt-4 pb-2">
-                                <button className="bg-[#884019] hover:bg-[#779a42] text-white font-normal py-2 px-4 rounded">
+                                <button className="bg-[#881952] hover:bg-[#42449a] text-white font-normal py-2 px-4 rounded">
                                     Read More
                                 </button>
                             </div>
@@ -118,7 +118,7 @@ const Projects = () => {
                                 </p>
                             </div>
                             <div className="px-6 pt-4 pb-2">
-                                <button className="bg-[#884019] hover:bg-[#779a42] text-white font-normal py-2 px-4 rounded">
+                                <button className="bg-[#88195c] hover:bg-[#311988] text-white font-normal py-2 px-4 rounded">
                                     Read More
                                 </button>
                             </div>
@@ -151,7 +151,7 @@ const Projects = () => {
                                 </p>
                             </div>
                             <div className="px-6 pt-4 pb-2">
-                                <button className="bg-[#884019] hover:bg-[#779a42] text-white font-normal py-2 px-4 rounded">
+                                <button className="bg-[#88195c] hover:bg-[#311988] text-white font-normal py-2 px-4 rounded">
                                     Read More
                                 </button>
                             </div>
@@ -182,7 +182,7 @@ const Projects = () => {
                                 </p>
                             </div>
                             <div className="px-6 pt-4 pb-2">
-                                <button className="bg-[#884019] hover:bg-[#779a42] text-white font-normal py-2 px-4 rounded">
+                                <button className="bg-[#88194f] hover:bg-[#311988] text-white font-normal py-2 px-4 rounded">
                                     Read More
                                 </button>
                             </div>

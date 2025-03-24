@@ -1,9 +1,9 @@
 import React from "react";
 import '../App.css';
 import { Element } from 'react-scroll';
-// import resume from '../assets/Resume.pdf';
+import resume from '../assets/Resume.pdf';
 import oshadhi from '../assets/me3.jpeg';
-import { FaLinkedinIn , FaGithub, FaYoutube} from "react-icons/fa"
+import { FaLinkedinIn , FaGithub} from "react-icons/fa"
 import { useSpring, animated } from 'react-spring';
 import {motion} from 'framer-motion';
 import AnimatedText from "./AnimatedText";
@@ -46,7 +46,7 @@ const bounce = {
             
             A little bit
             <span> </span>
-            <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent z-0">
+            <span className="gradient bg-gradient-to-r from-[#88193e] to-[#220dab] bg-clip-text text-transparent z-0">
               about me.
             </span>
           </h1>
@@ -58,15 +58,15 @@ const bounce = {
 >
             <p className="pt-8 text-2xl text-white whitespace-normal w-full md:w-4/6">
              IIT's code maestro, future <></>
-            <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent">
-             cloud architect
+            <span className="gradient bg-gradient-to-r from-[#88193e] to-[#220dab] bg-clip-text text-transparent">
+             AI Engineer
              </span> <></>
-             (paycheck to come later). Fueled by instant noodles and fueled by passion, I'm a <></>
-            <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent">
+             (paycheck to come later). Fueled by instant noodles and by passion, I'm a <></>
+            <span className="gradient bg-gradient-to-r from-[#88193e] to-[#220dab] bg-clip-text text-transparent">
               BSc Computer Science 
             </span> student on a mission to conquer code and the <></>
-            <span className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] bg-clip-text text-transparent">
-          cloud
+            <span className="gradient bg-gradient-to-r from-[#88193e] to-[#220dab] bg-clip-text text-transparent">
+          World of Tech
          </span>.
           (figuratively, for now). <br></br>
           
@@ -129,10 +129,12 @@ const bounce = {
   whileInView={{ opacity: 1 }}
 >
           <h1 className="pt-8 text-2xl font-light text-white text-left">
-            <a href={""}
+            <a
+              href={resume} 
               target="_blank"
               rel="noopener noreferrer"
-              className="gradient bg-gradient-to-r from-[#884019] to-[#779a42] rounded-full text-white inline-block text-center py-4 px-4 hover:translate-y-[-8px] transition-transform duration-200">
+              className="gradient bg-gradient-to-r from-[#88193e] to-[#220dab] rounded-full text-white inline-block text-center py-4 px-4 hover:translate-y-[-8px] transition-transform duration-200 glow-effect"
+            >
               See my resume
             </a>
           </h1>
